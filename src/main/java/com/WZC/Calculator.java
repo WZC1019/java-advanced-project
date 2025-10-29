@@ -31,7 +31,9 @@ public class Calculator {
      * 除法运算
      */
     public double divide(int a, int b) {
-        
+        if (b == 0) {
+            throw new ArithmeticException("除数不能为零");
+        }
         return (double) a / b;
     }
 }
