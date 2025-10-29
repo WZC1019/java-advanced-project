@@ -1,4 +1,4 @@
-package com.example;
+package com.WZC;
 
 /**
  * 计算器工具模块 - 第二个功能模块

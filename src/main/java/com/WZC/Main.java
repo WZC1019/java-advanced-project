@@ -1,4 +1,4 @@
-package com.example;
+package com.WZC;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +8,8 @@ public class Main {
         UserService userService = new UserService();
         userService.listAllUsers();
         
+
+        System.out.println("第一个用户: " + userService.getUserById(0));
         // 使用Calculator功能
         Calculator calculator = new Calculator();
         System.out.println("10 + 5 = " + calculator.add(10, 5));
